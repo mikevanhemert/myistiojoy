@@ -15,6 +15,13 @@ variables:
     prompt: true
 
 components:
+  - name: ins
+    required: true
+    manifests:
+      - name: ins
+        files:
+          - ins.yaml
+
   - name: flux
     required: true
     manifests:
